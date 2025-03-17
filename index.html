@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input id="input1" type="text" placeholder="Enter the city" spellcheck="false">
+            <button id="search"><img src="./images/search.png" width="50" height="50" alt=""></button>
+        </div>
+
+        <div class="weather">
+            <img src="./images/temperature.png" alt = "Weather Image" width="50" height="50">
+            <h1 id="tempLabel" class="temp">10 C</h1>
+            <h2 id="cityLabel" class="city">New York</h2>
+        </div>
+
+        <div class="detail">
+            <div class="col">
+                <img src="./images/humidity.png" alt="humidityImg" width="30" height="30">
+                <p class="humidity" id="humidityLabel">50%</p>
+                <p>Humidity</p>
+            </div>
+
+            <div class="col">
+                <img src="./images/wind.png" alt="humidityImg" width="30" height="30">
+                <p class="humidity" id="windLabel">5 km/h</p>
+                <p>Speed</p>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+    <script src="index.js"></script>
+    <script src="MOD.js"></script>
+</body>
+</html>
